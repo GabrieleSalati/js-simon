@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Livvic', sans-serif;
+}
+
+.box {
+    max-width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: lavender;
+}
+
+h1 {
+    text-align: center;
+    color: teal;
+    padding-top: 2rem;
+}
+
+.counters {
+    display: flex;
+    justify-content: space-around;
+}
+
+.counter {
+    text-align: center;
+    color: teal;
+    padding-top: 2rem;
+}
+
+.counter-number {
+    font-size: 4rem;
+}
+
+.counter-title {
+    font-size: 2rem;
+}
